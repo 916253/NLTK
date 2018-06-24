@@ -22,6 +22,7 @@ Label playerMedalsLabel;
 Label playerCouponsLabel;
 
 s32 acreEditorSelectedAcre = -1;
+s32 patternEditorSelectedPattern = -1;
 
 void InitEditorGFX(void)
 {
@@ -356,6 +357,13 @@ void draw_player_menu_patterns(Save *saveFile, int selectedPlayer, u32 LColor, u
         }
 
         C2D_DrawImageAt(saveFile->players[selectedPlayer].Patterns[i]->Images[0], x, y, 0.5f, nullptr, 1.0f, 1.0f);
+    }
+
+    if (patternEditorSelectedPattern > -1 && patternEditorSelectedPattern < 10) {
+
+    }
+    else {
+        C2D_DrawImageAt(saveFile->players[selectedPlayer].Patterns[0]->Images[0], 156, 56, 0.5f, nullptr, 4.0f, 4.0f);
     }
 
     draw_cursor();
