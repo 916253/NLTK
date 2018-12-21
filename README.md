@@ -19,7 +19,7 @@ The main developers of this project are [Slattz](https://github.com/Slattz) and 
 2. You're done, it's that easy. If you choose to enable the Auto Updater, the app will automatically update on start-up, hassle-free.
 
 ##### For Original HBL Users:
-1. Copy `SNLT.3dsx` to `SD:/3ds/NLTK/`.
+1. Copy `NLTK.3dsx` to `SD:/3ds/NLTK/`.
 2. Launch the HBL using your entrypoint of choice.
 3. Click on NLTK, then select your ACNL game.
 4. You're done, it's that easy. If you choose to enable the Auto Updater, the app will automatically update on start-up, hassle-free.
